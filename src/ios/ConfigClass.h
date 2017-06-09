@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "DeviceModel.h"
+#import "../SmartConfigLib/DeviceModel.h"
 
 //Equipment port
 #define kDevicePort 17744
