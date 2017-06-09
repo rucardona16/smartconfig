@@ -1,4 +1,4 @@
-#import "smartconfig.h"
+#import "smartconfigios.h"
 
 @implementation smartconfig
 
