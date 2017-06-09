@@ -1,4 +1,5 @@
-/*global cordova, module*/
+var exec    = require('cordova/exec'),
+cordova = require('cordova');
 
 module.exports = {
 	start:function(apSsid, password, userMarking, orderMarking, deviceName, successCallback, errorCallback){
