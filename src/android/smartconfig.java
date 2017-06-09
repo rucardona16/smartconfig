@@ -40,7 +40,7 @@ import org.json.JSONObject;
 /**
  * This class echoes a string called from JavaScript.
  */
-public class smartConfig extends CordovaPlugin {
+public class smartconfig extends CordovaPlugin {
 
     public static final String TAG = "DEBUG";
     public EGetDevice eGetDevice = new EGetDevice();
