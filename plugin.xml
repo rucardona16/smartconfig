@@ -44,6 +44,11 @@
 
     <header-file src="src/ios/smartconfig.h" target-dir="smartconfig"/>
     <source-file src="src/ios/smartconfig.m" target-dir="smartconfig"/>
+
+    <framework src="CoreGraphics.framework" />
+	  <framework src="UIKit.framework" />
+	  <framework src="Foundation.framework" />
+	  <framework src="src/ios/SmartConfig" custom="true" framework="true"/>
   </platform>
 
 </plugin>
