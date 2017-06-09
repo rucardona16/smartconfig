@@ -1,13 +1,13 @@
 #import <Cordova/CDV.h>
 #import <UIKit/UIKit.h>
-#import "smartConfig.h"
-#import "DataTransform.h"
-#import "RemoteSession.h"
-#import "HttpManager.h"
-#import "DeviceViewController.h"
-#import "LCToast.h"
-#import "ConfigClass.h"
-#import "DeviceModel.h"
+#import <SmartConfigLib/smartConfig.h>
+#import <SmartConfigLib/DataTransform.h>
+#import <SmartConfigLib/RemoteSession.h>
+#import <SmartConfigLib/HttpManager.h>
+#import <SmartConfigLib/DeviceViewController.h>
+#import <SmartConfigLib/LCToast.h>
+#import <SmartConfigLib/ConfigClass.h>
+#import <SmartConfigLib/DeviceModel.h>
 
 @interface smartconfig : CDVPlugin
 {
