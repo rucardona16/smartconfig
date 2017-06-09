@@ -1,4 +1,4 @@
-package co.iothings.button;
+package co.iothings.plugin;
 
 import android.text.TextUtils;
 
