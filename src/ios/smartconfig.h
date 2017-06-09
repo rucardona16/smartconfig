@@ -2,6 +2,8 @@
 
 @interface smartconfig : CDVPlugin
 
-- (void) greet:(CDVInvokedUrlCommand*)command;
+- (void)start:(CDVInvokedUrlCommand*)command;
+
+- (void)cancel:(CDVInvokedUrlCommand*)command;
 
 @end
