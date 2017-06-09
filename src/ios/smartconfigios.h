@@ -1,6 +1,6 @@
 #import <Cordova/CDV.h>
 #import <UIKit/UIKit.h>
-#import "smartConfig.h"
+#import <../SmartConfigLib/smartConfig.h>
 #import "DataTransform.h"
 #import "RemoteSession.h"
 #import "HttpManager.h"
