@@ -23,19 +23,19 @@
       </feature>
     </config-file>
 
-    <source-file src="src/android/smartconfig.java" target-dir="src/co/iothings/plugin/"/>
+    <source-file src="src/android/smartconfig.java" target-dir="src/co/smartconfig/plugin/"/>
   </platform>
 
   <platform name="ios">
     
     <config-file target="config.xml" parent="/widget">
       <feature name="smartconfig">
-        <param name="ios-package" value="HWPHello" />
+        <param name="ios-package" value="smartconfig" />
       </feature>
     </config-file>
 
-    <header-file src="src/ios/HWPHello.h" target-dir="HelloPlugin"/>
-    <source-file src="src/ios/HWPHello.m" target-dir="HelloPlugin"/>
+    <header-file src="src/ios/smartconfig.h" target-dir="smartconfig"/>
+    <source-file src="src/ios/smartconfig.m" target-dir="smartconfig"/>
   </platform>
 
 </plugin>

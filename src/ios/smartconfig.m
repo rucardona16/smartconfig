@@ -1,6 +1,6 @@
-#import "HWPHello.h"
+#import "smartconfig.h"
 
-@implementation HWPHello
+@implementation smartconfig
 
 - (void)greet:(CDVInvokedUrlCommand*)command
 {
