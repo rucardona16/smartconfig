@@ -1,21 +1,18 @@
-#import <Cordova/CDV.h>
-#import <UIKit/UIKit.h>
-#import <SmartConfigLib/smartConfig.h>
-#import <SmartConfigLib/DataTransform.h>
-#import <SmartConfigLib/RemoteSession.h>
-#import <SmartConfigLib/HttpManager.h>
-#import <SmartConfigLib/DeviceViewController.h>
-#import <SmartConfigLib/LCToast.h>
-#import <SmartConfigLib/ConfigClass.h>
-#import <SmartConfigLib/DeviceModel.h>
+//
+//  smartConfig.h
+//  smartConfig
+//
+//  Created by sunrun on 14-8-27.
+//  Copyright (c) 2014年 sunrun. All rights reserved.
+//
 
-@interface smartconfig : CDVPlugin
-{
-    ConfigClass *_configClass; 
-}
+#import <Foundation/Foundation.h>
 
-- (void)start:(CDVInvokedUrlCommand*)command;
+@interface smartConfig : NSObject
+//停止配置
+- (void)StopSmartConfig;
 
-- (void)cancel:(CDVInvokedUrlCommand*)command;
+//开始配置
+- (int )StartSmartConfigSetSSID:(NSString *)SSID andSetPassWord:(NSString *)Password andTokenString:(NSString *)tokenString;
 
 @end
