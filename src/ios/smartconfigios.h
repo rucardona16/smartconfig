@@ -11,7 +11,7 @@
 
 @interface smartconfig : CDVPlugin
 {
-    ConfigClass *_configClass; 
+    //ConfigClass *_configClass; 
 }
 
 - (void)start:(CDVInvokedUrlCommand*)command;
