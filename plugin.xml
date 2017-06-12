@@ -45,6 +45,7 @@
     <header-file src="src/ios/smartconfigios.h" target-dir="smartconfig"/>
     <source-file src="src/ios/smartconfigios.m" target-dir="smartconfig"/>
 
+    <header-file src="src/ios/smartConfig.h" />
     <header-file src="src/ios/ConfigClass.h" />
     <header-file src="src/ios/DeviceModel.h" />
     <header-file src="src/ios/CRC.h" />
