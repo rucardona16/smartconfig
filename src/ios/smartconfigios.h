@@ -6,7 +6,7 @@
 //#import "../SmartConfigLib/HttpManager.h"
 //#import "../SmartConfigLib/DeviceViewController.h"
 //#import "../SmartConfigLib/LCToast.h"
-#import "../SmartConfigLib/ConfigClass.h"
+#import "ConfigClass.h"
 //#import "../SmartConfigLib/DeviceModel.h"
 
 @interface smartconfig : CDVPlugin
