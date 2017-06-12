@@ -47,6 +47,13 @@
 
     <header-file src="src/ios/ConfigClass.h" />
     <header-file src="src/ios/DeviceModel.h" />
+    <header-file src="src/ios/CRC.h" />
+    <header-file src="src/ios/GCDAsyncSocket.h" />
+    <header-file src="src/ios/GCDAsyncUdpSocket.h" />
+    <header-file src="src/ios/Reachability.h" />
+    <header-file src="src/ios/UDPMuc.h" />
+    <source-file src="src/ios/GCDAsyncSocket.m" />
+    <source-file src="src/ios/GCDAsyncUdpSocket.m" />
     <framework src="CoreGraphics.framework" />
 	  <framework src="UIKit.framework" />
 	  <framework src="Foundation.framework" />
