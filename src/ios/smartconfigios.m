@@ -10,10 +10,10 @@
     NSString* orderMarking =(NSString *)[command.arguments objectAtIndex:3];
     NSString* deviceName =(NSString *)[command.arguments objectAtIndex:3];
 
-    _configClass = [[ConfigClass alloc] init]; 
-    _configClass.delegate = self; 
+    //_configClass = [[ConfigClass alloc] init]; 
+    //_configClass.delegate = self; 
 
-    [_configClass starConfigWithWifiName:apSsid andWifiPsw:password andUserMarking:userMarking andOrderMarking:orderMarking andDeviceName:deviceName];
+    //[_configClass starConfigWithWifiName:apSsid andWifiPsw:password andUserMarking:userMarking andOrderMarking:orderMarking andDeviceName:deviceName];
 
     /*NSString* name = [[command arguments] objectAtIndex:0];
     NSString* msg = [NSString stringWithFormat: @"start, %@", name];
@@ -36,7 +36,7 @@
                                messageAsString:msg];
 
     [self.commandDelegate sendPluginResult:result callbackId:command.callbackId];*/
-    [_configClass stopConfig];
+    //[_configClass stopConfig];
 }
 
 @end
