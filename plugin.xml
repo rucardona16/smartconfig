@@ -49,6 +49,7 @@
 	  <framework src="UIKit.framework" />
 	  <framework src="Foundation.framework" />
 	  <framework src="src/ios/SmartConfigLib" custom="true" framework="true"/>
+    <framework src="src/ios/SmartConfigLib/libSmartConfig.a" custom="true" framework="true"/>
   </platform>
 
 </plugin>
