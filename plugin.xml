@@ -50,7 +50,7 @@
     <framework src="CoreGraphics.framework" />
 	  <framework src="UIKit.framework" />
 	  <framework src="Foundation.framework" />
-    <framework src="src/ios/libSmartConfig.a" custom="true" framework="true"/>
+    <!--<framework src="src/ios/libSmartConfig.a" custom="true" framework="true"/>-->
   </platform>
 
 </plugin>
