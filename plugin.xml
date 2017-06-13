@@ -47,15 +47,22 @@
 
     <header-file src="src/ios/smartConfig.h" />
     <header-file src="src/ios/ConfigClass.h" />
-    <header-file src="src/ios/DeviceModel.h" />
-    <source-file src="src/ios/DeviceModel.m" />
     <header-file src="src/ios/CRC.h" />
-    <header-file src="src/ios/GCDAsyncSocket.h" />
-    <source-file src="src/ios/GCDAsyncSocket.m" />
-    <header-file src="src/ios/GCDAsyncUdpSocket.h" />
-    <source-file src="src/ios/GCDAsyncUdpSocket.m" />
     <header-file src="src/ios/Reachability.h" />
     <header-file src="src/ios/UDPMuc.h" />
+
+    <header-file src="src/ios/DeviceModel.h" />
+    <source-file src="src/ios/DeviceModel.m" />
+
+    <header-file src="src/ios/GCDAsyncSocket.h" />
+    <source-file src="src/ios/GCDAsyncSocket.m" />
+
+    <header-file src="src/ios/GCDAsyncUdpSocket.h" />
+    <source-file src="src/ios/GCDAsyncUdpSocket.m" />
+
+    <header-file src="src/ios/RemoteSession.h" />
+    <source-file src="src/ios/RemoteSession.m" />
+
     <framework src="CoreGraphics.framework" />
 	  <framework src="UIKit.framework" />
 	  <framework src="Foundation.framework" />
