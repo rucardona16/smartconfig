@@ -26,7 +26,7 @@
     device.dmac = [dic objectForKey:@"dmac"];
     device.firmwareVersion = [dic objectForKey:@"firmwareVersion"];
     device.goodsName = [dic objectForKey:@"goodsName"];
-    device.goodsPictureURL = [NSString stringWithFormat:@"%@%@",ServerAddress,[dic objectForKey:@"goodsPictureURL"]];
+    device.goodsPictureURL = [NSString stringWithFormat:@"%@%@",@"http://113.59.226.19:3000/",[dic objectForKey:@"goodsPictureURL"]];
     device.goodsPrice = [dic objectForKey:@"goodsPrice"];
     device.isLowPower = [dic objectForKey:@"isLowPower"];
     device.orderMarking = [dic objectForKey:@"orderMarking"];
