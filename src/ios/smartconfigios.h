@@ -11,9 +11,9 @@
 
 @interface smartconfig : CDVPlugin
 {
-    //ConfigClass *_configClass; 
+    //ConfigClass *_configClass;
 }
-
+@property (nonatomic,copy)NSString *callbackId;
 - (void)start:(CDVInvokedUrlCommand*)command;
 
 - (void)cancel:(CDVInvokedUrlCommand*)command;
